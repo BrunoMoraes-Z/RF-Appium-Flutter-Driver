@@ -1,0 +1,8 @@
+robotframework
+Appium-Python-Client
+Appium-Flutter-Finder
+requests
+decorator
+selenium
+kitchen
+six
