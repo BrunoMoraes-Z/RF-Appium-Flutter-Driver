@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.2 (Python 3.8.3 on win32)" generated="20210523 12:15:15.959" rpa="false" schemaversion="2">
+<robot generator="Robot 4.0.2 (Python 3.8.3 on win32)" generated="20210523 15:15:00.241" rpa="false" schemaversion="2">
 <suite id="s1" name="Appium Flutter Driver Example" source="D:\Documentos\Codes\robotframework\appium_flutter_driver_example">
 <suite id="s1-s1" name="Case" source="D:\Documentos\Codes\robotframework\appium_flutter_driver_example\case">
 <suite id="s1-s1-s1" name="Example" source="D:\Documentos\Codes\robotframework\appium_flutter_driver_example\case\example.robot">
@@ -12,121 +12,114 @@
 <arg>udid=${device}</arg>
 <arg>appPackage=${package}</arg>
 <arg>appActivity=${activity}</arg>
-<status status="PASS" starttime="20210523 12:15:16.093" endtime="20210523 12:15:27.974"/>
+<status status="PASS" starttime="20210523 15:15:00.396" endtime="20210523 15:15:10.955"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210523 12:15:30.982" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210523 12:15:27.974" endtime="20210523 12:15:30.982"/>
+<msg timestamp="20210523 15:15:13.962" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210523 15:15:10.956" endtime="20210523 15:15:13.963"/>
 </kw>
 <kw name="Capture Page Screenshot" library="AppiumFlutterLibrary">
-<msg timestamp="20210523 12:15:31.170" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210523 12:15:30.983" endtime="20210523 12:15:31.170"/>
+<msg timestamp="20210523 15:15:14.200" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-1.png"&gt;&lt;img src="appium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210523 15:15:13.964" endtime="20210523 15:15:14.200"/>
 </kw>
 <kw name="Click Element" library="AppiumFlutterLibrary">
 <arg>btn_continue</arg>
-<msg timestamp="20210523 12:15:31.306" level="INFO" html="true">Clicking the element [btn_continue]</msg>
-<status status="PASS" starttime="20210523 12:15:31.171" endtime="20210523 12:15:31.307"/>
+<msg timestamp="20210523 15:15:14.338" level="INFO" html="true">Clicking the element [btn_continue]</msg>
+<status status="PASS" starttime="20210523 15:15:14.200" endtime="20210523 15:15:14.338"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210523 12:15:32.313" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210523 12:15:31.308" endtime="20210523 12:15:32.313"/>
-</kw>
-<kw name="Input Text" library="AppiumFlutterLibrary">
-<arg>input_email</arg>
-<arg>automation@gmail.com</arg>
-<msg timestamp="20210523 12:15:32.402" level="INFO" html="true">typing [automation@gmail.com] in the [input_email] element</msg>
-<status status="PASS" starttime="20210523 12:15:32.313" endtime="20210523 12:15:32.402"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210523 12:15:33.410" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210523 12:15:32.403" endtime="20210523 12:15:33.410"/>
-</kw>
-<kw name="Get Text" library="AppiumFlutterLibrary">
-<var>${value}</var>
-<arg>lbl_remember</arg>
-<msg timestamp="20210523 12:15:33.427" level="INFO">${value} = Remember me</msg>
-<status status="PASS" starttime="20210523 12:15:33.411" endtime="20210523 12:15:33.427"/>
-</kw>
-<kw name="Get Text" library="AppiumFlutterLibrary">
-<var>${value}</var>
-<arg>Forgot Password</arg>
-<arg>text</arg>
-<msg timestamp="20210523 12:15:33.445" level="INFO">${value} = Forgot Password</msg>
-<status status="PASS" starttime="20210523 12:15:33.427" endtime="20210523 12:15:33.445"/>
+<msg timestamp="20210523 15:15:15.340" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210523 15:15:14.338" endtime="20210523 15:15:15.340"/>
 </kw>
 <kw name="Get Text" library="AppiumFlutterLibrary">
 <var>${value}</var>
 <arg>Continue</arg>
 <arg>text</arg>
-<msg timestamp="20210523 12:15:33.456" level="INFO">${value} = Continue</msg>
-<status status="PASS" starttime="20210523 12:15:33.445" endtime="20210523 12:15:33.456"/>
+<msg timestamp="20210523 15:15:15.361" level="INFO">${value} = Continue</msg>
+<status status="PASS" starttime="20210523 15:15:15.341" endtime="20210523 15:15:15.361"/>
+</kw>
+<kw name="Get Text" library="AppiumFlutterLibrary">
+<var>${value}</var>
+<arg>lbl_remember</arg>
+<msg timestamp="20210523 15:15:15.372" level="INFO">${value} = Remember me</msg>
+<status status="PASS" starttime="20210523 15:15:15.362" endtime="20210523 15:15:15.372"/>
+</kw>
+<kw name="Get Text" library="AppiumFlutterLibrary">
+<var>${value}</var>
+<arg>Forgot Password</arg>
+<arg>text</arg>
+<msg timestamp="20210523 15:15:15.382" level="INFO">${value} = Forgot Password</msg>
+<status status="PASS" starttime="20210523 15:15:15.373" endtime="20210523 15:15:15.382"/>
+</kw>
+<kw name="Input Text" library="AppiumFlutterLibrary">
+<arg>input_email</arg>
+<arg>automation@gmail.com</arg>
+<msg timestamp="20210523 15:15:15.464" level="INFO" html="true">typing [automation@gmail.com] in the [input_email] element</msg>
+<status status="PASS" starttime="20210523 15:15:15.382" endtime="20210523 15:15:15.464"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20210523 15:15:16.469" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210523 15:15:15.465" endtime="20210523 15:15:16.469"/>
 </kw>
 <kw name="Input Text" library="AppiumFlutterLibrary">
 <arg>input_password</arg>
 <arg>123456789</arg>
-<msg timestamp="20210523 12:15:33.487" level="INFO" html="true">typing [123456789] in the [input_password] element</msg>
-<status status="PASS" starttime="20210523 12:15:33.456" endtime="20210523 12:15:33.488"/>
+<msg timestamp="20210523 15:15:16.505" level="INFO" html="true">typing [123456789] in the [input_password] element</msg>
+<status status="PASS" starttime="20210523 15:15:16.469" endtime="20210523 15:15:16.505"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210523 12:15:34.503" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210523 12:15:33.488" endtime="20210523 12:15:34.503"/>
+<msg timestamp="20210523 15:15:17.520" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210523 15:15:16.506" endtime="20210523 15:15:17.520"/>
 </kw>
 <kw name="Capture Page Screenshot" library="AppiumFlutterLibrary">
-<msg timestamp="20210523 12:15:34.660" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-2.png"&gt;&lt;img src="appium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210523 12:15:34.503" endtime="20210523 12:15:34.660"/>
+<msg timestamp="20210523 15:15:17.689" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-2.png"&gt;&lt;img src="appium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210523 15:15:17.520" endtime="20210523 15:15:17.689"/>
 </kw>
 <kw name="Click Element" library="AppiumFlutterLibrary">
 <arg>btn_continue</arg>
-<msg timestamp="20210523 12:15:34.687" level="INFO" html="true">Clicking the element [btn_continue]</msg>
-<status status="PASS" starttime="20210523 12:15:34.661" endtime="20210523 12:15:34.687"/>
+<msg timestamp="20210523 15:15:17.707" level="INFO" html="true">Clicking the element [btn_continue]</msg>
+<status status="PASS" starttime="20210523 15:15:17.690" endtime="20210523 15:15:17.707"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210523 12:15:35.693" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210523 12:15:34.687" endtime="20210523 12:15:35.693"/>
+<msg timestamp="20210523 15:15:18.713" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210523 15:15:17.707" endtime="20210523 15:15:18.713"/>
 </kw>
 <kw name="Capture Page Screenshot" library="AppiumFlutterLibrary">
-<msg timestamp="20210523 12:15:35.874" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-3.png"&gt;&lt;img src="appium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210523 12:15:35.694" endtime="20210523 12:15:35.874"/>
+<msg timestamp="20210523 15:15:18.896" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-3.png"&gt;&lt;img src="appium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210523 15:15:18.713" endtime="20210523 15:15:18.896"/>
 </kw>
 <kw name="Click Element" library="AppiumFlutterLibrary">
 <arg>btn_home</arg>
-<msg timestamp="20210523 12:15:35.891" level="INFO" html="true">Clicking the element [btn_home]</msg>
-<status status="PASS" starttime="20210523 12:15:35.875" endtime="20210523 12:15:35.891"/>
+<msg timestamp="20210523 15:15:18.918" level="INFO" html="true">Clicking the element [btn_home]</msg>
+<status status="PASS" starttime="20210523 15:15:18.896" endtime="20210523 15:15:18.918"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210523 12:15:36.900" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20210523 12:15:35.892" endtime="20210523 12:15:36.900"/>
+<msg timestamp="20210523 15:15:19.920" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210523 15:15:18.919" endtime="20210523 15:15:19.920"/>
 </kw>
 <kw name="Capture Page Screenshot" library="AppiumFlutterLibrary">
-<msg timestamp="20210523 12:15:37.149" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-4.png"&gt;&lt;img src="appium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210523 12:15:36.900" endtime="20210523 12:15:37.150"/>
+<msg timestamp="20210523 15:15:20.167" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="appium-screenshot-4.png"&gt;&lt;img src="appium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210523 15:15:19.920" endtime="20210523 15:15:20.168"/>
 </kw>
-<kw name="Log" library="BuiltIn">
-<arg>Teste</arg>
-<arg>console=True</arg>
-<doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210523 12:15:37.150" level="INFO">Teste</msg>
-<status status="PASS" starttime="20210523 12:15:37.150" endtime="20210523 12:15:37.150"/>
-</kw>
-<status status="PASS" starttime="20210523 12:15:16.093" endtime="20210523 12:15:37.151"/>
+<status status="PASS" starttime="20210523 15:15:00.395" endtime="20210523 15:15:20.168"/>
 </test>
-<status status="PASS" starttime="20210523 12:15:15.983" endtime="20210523 12:15:37.152"/>
+<status status="PASS" starttime="20210523 15:15:00.268" endtime="20210523 15:15:20.170"/>
 </suite>
-<status status="PASS" starttime="20210523 12:15:15.981" endtime="20210523 12:15:37.153"/>
+<status status="PASS" starttime="20210523 15:15:00.265" endtime="20210523 15:15:20.172"/>
 </suite>
-<status status="PASS" starttime="20210523 12:15:15.961" endtime="20210523 12:15:37.154"/>
+<status status="PASS" starttime="20210523 15:15:00.242" endtime="20210523 15:15:20.174"/>
 </suite>
 <statistics>
 <total>
