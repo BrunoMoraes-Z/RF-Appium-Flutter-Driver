@@ -18,7 +18,8 @@ Project aims to demonstrate a way to perform tests with Appium in applications d
   - Python 3 or above
   - NodeJS [LTS Version](https://nodejs.org/en/download/)
   - SDK Platform Tools
-  - NPM package ``appium-flutter-driver`` (npm i -g appium-flutter-driver)
+  - Appium Server ```npm i -g appium```
+  - Flutter Driver ``npm i -g appium-flutter-driver``
   - ``RobotFramework, Appium-Python-Clien and Appium-Flutter-Finder``
   
 ## ⚙ Capabilities Example
